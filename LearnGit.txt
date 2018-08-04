@@ -16,6 +16,10 @@ git remote add origin https://github.com/weizy2018/test.git (git@github.com:weiz
 (git pull --rebase origin master)
 git push -u origin master
 
+//删除git上的文件
+git rm --cached giant_file
+# Stage our giant file for removal, but leave it on disk
+
 关于分支冲突可参照网站：https://morvanzhou.github.io/tutorials/others/git/4-3-rebase/
 
 git学习：https://morvanzhou.github.io/tutorials/others/git/4-3-rebase/
