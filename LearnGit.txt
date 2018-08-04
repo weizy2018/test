@@ -1,0 +1,19 @@
+显示所有分支：git branch
+创建分支 ：1. git branch <branch name>
+		   2. git checkout -b <branch name>   //创建分支并把指针移到该分支中
+移动分支指针：git checkout <branch name>
+
+将分支合并到master分支上：git merge --no--ff -m "information" <branch name>
+删除分支：git branch -d <branch name>
+
+
+//github
+echo "README.md information " >>README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/weizy2018/test.git (git@github.com:weizy2018/test.git)
+(git pull --rebase origin master)
+git push -u origin master
+
+ 
