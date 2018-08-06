@@ -15,10 +15,7 @@ git rm --cached giant_file
 git log --oneline --graph
 
 
-//从文档库的任何一个commit节点取出指定的文件：
-git checkout commit 节点标识符或标签  文件1  文件2 ...
 
-注：文件夹中的文件会被取出的文件覆盖
 
 
 
